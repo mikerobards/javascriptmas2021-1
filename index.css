@@ -1,0 +1,96 @@
+:root {
+  --dark-red: #aa0000;
+  --bright-red: #D42D2F;
+  --dark-green: #075600;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: var(--dark-green);
+    background-color: var(--snow);
+    background-image: url('./davies-designs-studio-PvGt65_l0FU-unsplash.jpg');
+    background-size: cover;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: var(--dark-red);
+    color: var(--snow);
+    padding: 1em 2em;
+    margin: 0 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.countdown-display {
+    font-size: 1.39rem;
+    margin: 0 0 -1.5rem 0;
+}
+
+input {
+    width: 25%;
+    margin: 0 auto;
+}
+
+label {
+    margin: 5px;
+}
+
+button {
+  background-color: var(--dark-green);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  width: 25%;
+  line-height: 20px;
+  list-style: none;
+  margin: 10px auto;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--light-green);
+}
+
+/* button: https://getcssscan.com/css-buttons-examples */
+
+.credit {
+    position: absolute;
+    bottom: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
